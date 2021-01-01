@@ -1,3 +1,9 @@
+# Directories
+.vs/
+
+# Files
+*.user
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LearningCpp", "LearningCpp\LearningCpp.vcxproj", "{EADDCE44-F779-4B05-B7E8-AB9F27966CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADDCE44-F779-4B05-B7E8-AB9F27966CB7}.Debug|x64.ActiveCfg = Debug|x64
+		{EADDCE44-F779-4B05-B7E8-AB9F27966CB7}.Debug|x64.Build.0 = Debug|x64
+		{EADDCE44-F779-4B05-B7E8-AB9F27966CB7}.Release|x64.ActiveCfg = Release|x64
+		{EADDCE44-F779-4B05-B7E8-AB9F27966CB7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4894C243-B52E-4F30-A558-92F3132D55A4}
+	EndGlobalSection
+EndGlobal
