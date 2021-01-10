@@ -1,4 +1,4 @@
-#include "Log.h"
+#include "../header/Log.h"
 
 void InitLog() 
 {
