@@ -2,14 +2,17 @@
 #include "../header/Log.h"
 #include "Main.h"
 
-void DoingLoopExample();
-void DoingConditionExample();
+void RunLoopExample();
+void RunConditionExample();
+void RunPointerExample();
 
 int main()
 {
-	DoingConditionExample();
+	RunConditionExample();
 
-	DoingLoopExample();
+	RunLoopExample();
+
+	RunPointerExample();
 
 	std::cin.get();
 }

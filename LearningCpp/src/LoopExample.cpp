@@ -1,6 +1,6 @@
 #include "../header/Log.h"
 
-void DoingLoopExample()
+void RunLoopExample()
 {
 	Log("===========================================");
 	Log("Doing Loop Example: ");

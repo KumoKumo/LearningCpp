@@ -1,3 +1,3 @@
 #pragma once
 
-void DoingConditionExample();
+void RunConditionExample();

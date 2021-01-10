@@ -1,6 +1,6 @@
 #include "../header/Log.h"
 
-void DoingConditionExample()
+void RunConditionExample()
 {
 	Log("===========================================");
 	Log("Doing ConditionExample: ");

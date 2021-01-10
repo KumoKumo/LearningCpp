@@ -156,6 +156,7 @@
     <ClCompile Include="src\LoopExample.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Math.cpp" />
+    <ClCompile Include="src\PointerExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\EndBrace.h" />
