@@ -157,11 +157,12 @@
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Math.cpp" />
     <ClCompile Include="src\PointerExample.cpp" />
+    <ClCompile Include="src\ReferenceExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\EndBrace.h" />
     <ClInclude Include="header\Log.h" />
-    <ClInclude Include="src\Main.h" />
+    <ClInclude Include="header\Topics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

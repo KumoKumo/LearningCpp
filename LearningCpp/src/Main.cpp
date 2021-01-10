@@ -1,18 +1,11 @@
-#include<iostream>
-#include "../header/Log.h"
-#include "Main.h"
-
-void RunLoopExample();
-void RunConditionExample();
-void RunPointerExample();
+#include "../header/Topics.h"
 
 int main()
 {
 	RunConditionExample();
-
 	RunLoopExample();
-
 	RunPointerExample();
+	RunReferenceExample();
 
 	std::cin.get();
 }

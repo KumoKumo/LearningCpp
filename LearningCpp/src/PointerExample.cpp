@@ -1,6 +1,4 @@
-#include <iostream>
-#include "../header/Log.h"
-#define LOG(x) std::cout << x << std::endl
+#include "../header/Topics.h"
 
 void RunPointerExample()
 {

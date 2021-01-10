@@ -33,6 +33,9 @@
     <ClCompile Include="src\PointerExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\ReferenceExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\EndBrace.h">
@@ -41,7 +44,7 @@
     <ClInclude Include="header\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Main.h">
+    <ClInclude Include="header\Topics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
