@@ -7,3 +7,4 @@ void RunPointerExample();
 void RunReferenceExample();
 void RunStaticOutsideOfClassOrStructExample();
 void RunStaticInsideOfClassOrStructExample();
+void RunLocalStaticExample();
