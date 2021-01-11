@@ -35,9 +35,11 @@ int main()
 
 	Log("=======================================");
 	LOG(s_variable00);
-	RunStaticOutsideOfClassExample();
+	RunStaticOutsideOfClassOrStructExample();
 	FunctionFromStatic();
 
+	Log("=======================================");
+	RunStaticInsideOfClassOrStructExample();
 
 	std::cin.get();
 }
