@@ -13,6 +13,11 @@ public:
 	}
 };
 
+enum class Level : unsigned char
+{
+	Level01, Level02, Level03
+};
+
 extern int s_variable00;
 
 void FunctionFromMain()
@@ -43,5 +48,6 @@ int main()
 
 	RunLocalStaticExample();
 	RunLogExample();
+	Level level = Level::Level02;
 	std::cin.get();
 }

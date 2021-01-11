@@ -10,17 +10,16 @@ void Log(const char* message)
 	std::cout << message << std::endl;
 }
 
+enum class Level : unsigned char
+{
+	LevelError, LevelWarning, LevelInfo
+};
+
 
 class Logger
 {
-public:
-	enum  Level : unsigned char
-	{
-		LevelError, LevelWarning, LevelInfo
-	};
-
 private:
-	Level m_Loglevel = LevelInfo;
+	Level m_Loglevel = Level::LevelInfo;
 
 public:
 	void SetLevel(Level level)
@@ -30,19 +29,19 @@ public:
 
 	void Error(const char* message) 
 	{
-		if (m_Loglevel >= LevelError)
+		if (m_Loglevel >= Level::LevelError)
 			std::cout << "[Error] " << message << std::endl;
 	}
 
 	void Warn(const char* message)
 	{
-		if (m_Loglevel >= LevelWarning)
+		if (m_Loglevel >= Level::LevelWarning)
 			std::cout << "[Warning] " << message << std::endl;
 	}
 
 	void Info(const char* message)
 	{
-		if (m_Loglevel >= LevelInfo)
+		if (m_Loglevel >= Level::LevelInfo)
 			std::cout << "[Info] " << message << std::endl;
 	}
 
@@ -52,7 +51,7 @@ void RunLogExample()
 {
 	Log("=========================================");
 	Logger log;
-	log.SetLevel(Logger::LevelWarning);
+	log.SetLevel(Level::LevelWarning);
 	log.Error("Hello World!!!!");
 	log.Warn("Hello World!!!");
 	log.Info("Hello World!");
