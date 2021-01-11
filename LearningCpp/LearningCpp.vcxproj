@@ -158,6 +158,7 @@
     <ClCompile Include="src\Math.cpp" />
     <ClCompile Include="src\PointerExample.cpp" />
     <ClCompile Include="src\ReferenceExample.cpp" />
+    <ClCompile Include="src\Static.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\EndBrace.h" />

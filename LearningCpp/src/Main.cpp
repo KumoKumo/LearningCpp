@@ -13,6 +13,15 @@ public:
 	}
 };
 
+extern int s_variable00;
+
+void FunctionFromMain()
+{
+	LOG("This function is from main.cpp!!");
+}
+
+void FunctionFromStatic();
+
 int main()
 {
 	RunConditionExample();
@@ -23,6 +32,12 @@ int main()
 	Player player;
 	player.x = 5;
 	player.Move(1, -1);
+
+	Log("=======================================");
+	LOG(s_variable00);
+	RunStaticOutsideOfClassExample();
+	FunctionFromStatic();
+
 
 	std::cin.get();
 }
