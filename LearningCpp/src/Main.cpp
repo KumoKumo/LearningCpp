@@ -42,5 +42,6 @@ int main()
 	RunStaticInsideOfClassOrStructExample();
 
 	RunLocalStaticExample();
+	RunLogExample();
 	std::cin.get();
 }
